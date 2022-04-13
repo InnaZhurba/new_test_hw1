@@ -1,25 +1,16 @@
 import logo from './logo.svg';
+
+import reverseString5 from './myReverseFuctions.js';
 import './App.css';
 
+//console.log(`${reverseString5('variable')}`);
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  console.log('ghgkjkjhk');
+  let varuable = 'hjhj';
+  console.log(varuable);
+  reverseString5();
+  //console.log(`${variable}`);
 }
 
 export default App;
