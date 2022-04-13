@@ -20,7 +20,6 @@ function reverseString4(str) {
     }
     return rvsdString
 }
-
 function reverseString5(){
     let rvsdString = ''
     for(const letter of 'ghgkjkjhk'){

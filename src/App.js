@@ -4,7 +4,6 @@ import reverseString5 from './myReverseFuctions.js';
 import './App.css';
 
 //console.log(`${reverseString5('variable')}`);
-
 function App() {
   console.log('ghgkjkjhk');
   let varuable = 'hjhj';
