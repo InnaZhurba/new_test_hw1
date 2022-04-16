@@ -7,6 +7,8 @@ function reverseString1(str){
   return str.split("").reverse().join("");
 }
 
+const rvsd = str => str.split("").reverse().join("")
+
 function reverseString3(str){
   let rvsdString = "";
   for (let i = str.length - 1; i >= 0; i--){
@@ -23,13 +25,12 @@ function reverseString4(str) {
   return rvsdString
 }
 
-function reverseString5(){
+function reverseString5(str){
   let rvsdString = ''
-  for(const letter of 'ghgkjkjhk'){
+  for(const letter of str){
     rvsdString = letter + rvsdString;
   }
-  console.log(rvsdString);
-  //return rvsdString;
+  return rvsdString;
 }
 
 function App() {
