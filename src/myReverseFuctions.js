@@ -3,7 +3,7 @@ function reverseString1(str){
 }
 
 //"string".split("").reverse().join("");
-const rvsd = str => str.split("").reverse().join("")
+//const rvsd = str => str.split("").reverse().join("")
 
 function reverseString3(str){
     let rvsdString = "";
